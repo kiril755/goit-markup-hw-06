@@ -856,18 +856,6 @@ body {
 
 .checkbox-link {
   color: var(--accent-color);
-  text-decoration: none;
-  position: relative;
-}
-
-.checkbox-link::after {
-  position: absolute;
-  content: '';
-  background-color: var(--accent-color);
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  width: 100%;
 }
 
 .form-button {
